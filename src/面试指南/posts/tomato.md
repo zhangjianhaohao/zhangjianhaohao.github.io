@@ -1,9 +1,9 @@
 ---
 cover: /assets/images/cover2.jpg
 icon: pen-to-square
-date: 2022-01-12
+date: 2026-03-12
 category:
-  - Vegetable
+  - Technique
 tag:
   - red
   - round
@@ -11,7 +11,7 @@ star: true
 sticky: true
 ---
 
-# Tomato
+# Claude code的使用步骤
 
 ## Heading 2
 

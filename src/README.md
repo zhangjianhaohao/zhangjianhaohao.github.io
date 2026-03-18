@@ -4,11 +4,13 @@ layout: Blog
 icon: house
 title: Blog Home
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+heroText: 健浩的博客网站
+tagline: Where there is a will, there is a way
 heroFullScreen: true
 projects:
-  - icon: folder-open
+  # folder-open
+  # 使用的fontawesome的框架
+  - icon: house
     name: project name
     desc: project detailed description
     link: https://your.project.link
@@ -38,7 +40,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+footer: Where there is a will, there is a way
 ---
 
 This is a blog home page demo.

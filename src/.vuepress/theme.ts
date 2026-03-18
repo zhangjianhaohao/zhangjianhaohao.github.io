@@ -4,12 +4,17 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+  // 给配置的域名
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
+    // Miss 未婚女性
+    // Mrs 已婚女性
+    // Ms 不透露婚姻状况的女性
+    name: "Mr.Zhang",
+    //这个才是自己配的域名
     url: "https://mister-hope.com",
-  },
+  },  
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
@@ -58,10 +63,12 @@ export default hopeTheme({
   },
 
   locales: {
+    //默认是这个
     "/": {
+      //默认是english的导航栏
       // navbar
       navbar: enNavbar,
-
+      //默认是english的侧边栏
       // sidebar
       sidebar: enSidebar,
 
@@ -70,7 +77,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "A BackendEnd programmer",
         intro: "/intro.html",
       },
 
@@ -81,6 +88,9 @@ export default hopeTheme({
 
     /**
      * Chinese locale config
+     */
+    /**
+     * 是中文的话要加上/zh/
      */
     "/zh/": {
       // navbar
@@ -94,7 +104,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "一个后端开发者",
         intro: "/zh/intro.html",
       },
 
@@ -107,7 +117,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
+      "/开发工具/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },

@@ -11,11 +11,11 @@ star: true
 sticky: true
 ---
 
-# 番茄
+# Claude code的使用步骤
 
 ## 标题 2
 
-这里是内容。
+这里是内容。这是番茄的卡片
 
 ### 标题 3
 

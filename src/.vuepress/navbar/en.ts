@@ -1,8 +1,8 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
-  "/",
-  "/demo/",
+  //"/",
+  "/面试指南/",
   {
     text: "Posts",
     icon: "pen-to-square",
