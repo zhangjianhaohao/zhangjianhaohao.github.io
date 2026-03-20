@@ -1,4 +1,5 @@
 ---
+title: tomato
 cover: /assets/images/cover2.jpg
 icon: pen-to-square
 date: 2026-03-12
@@ -11,7 +12,9 @@ star: true
 sticky: true
 ---
 
-# Claude code的使用步骤
+# meyou
+
+## Claude code的使用步骤
 
 ## Heading 2
 

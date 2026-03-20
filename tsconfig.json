@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    //NodeNext 是 TypeScript 为了对齐 Node.js 最新的 ESM 模块规范
+    //ts
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "target": "ES2022"

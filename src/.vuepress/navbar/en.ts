@@ -4,44 +4,25 @@ export const enNavbar = navbar([
   //"/",
   "/面试指南/",
   {
-    text: "Posts",
-    icon: "pen-to-square",
-    prefix: "/posts/",
+    text: "网站相关",
+    icon: "about",
     children: [
+      { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
       {
-        text: "Apple",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
+        text: "PDF下载",
+        icon: "pdf",
+        link: "/interview-preparation/pdf-interview-javaguide.md",
       },
       {
-        text: "Banana",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "Banana 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+        text: "面试突击",
+        icon: "pdf",
+        link: "https://interview.javaguide.cn/home.html",
       },
-      { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      {
+        text: "更新历史",
+        icon: "history",
+        link: "/timeline/",
+      },
     ],
   },
   {

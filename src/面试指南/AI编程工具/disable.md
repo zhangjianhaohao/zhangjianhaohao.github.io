@@ -1,6 +1,6 @@
 ---
 title: Disabling layout and features
-icon: gears
+icon: Icons.gears
 order: 4
 category:
   - Guide

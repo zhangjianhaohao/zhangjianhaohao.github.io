@@ -1,7 +1,7 @@
 ---
-title: 开发工具
+title: AI编程工具
 index: false
-icon: laptop-code
+icon: ICONS.BASIC
 category:
   - Guide
 ---

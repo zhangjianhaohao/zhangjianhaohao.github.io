@@ -6,7 +6,7 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   // 给配置的域名
   hostname: "https://mister-hope.github.io",
-
+  
   author: {
     // Miss 未婚女性
     // Mrs 已婚女性
@@ -20,7 +20,7 @@ export default hopeTheme({
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   blog: {
     medias: {
@@ -218,8 +218,12 @@ export default hopeTheme({
     },
 
     icon: {
-      prefix: "fa6-solid:",
+      assets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
     },
+
+    // icon: {
+    //   prefix: "fa6-solid:",
+    // },
 
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
