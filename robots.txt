@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://zhangjianhaohao.github.io/sitemap.xml
