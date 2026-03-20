@@ -5,7 +5,7 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   // 给配置的域名
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://zhangjianhaohao.github.io",
   
   author: {
     // Miss 未婚女性
@@ -13,7 +13,7 @@ export default hopeTheme({
     // Ms 不透露婚姻状况的女性
     name: "Mr.Zhang",
     //这个才是自己配的域名
-    url: "https://mister-hope.com",
+    //url: "https://mister-hope.com",
   },  
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",

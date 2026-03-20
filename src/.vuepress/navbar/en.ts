@@ -19,6 +19,7 @@ export const enNavbar = navbar([
         link: "https://interview.javaguide.cn/home.html",
       },
       {
+      // 这个是需要重启服务，才能进行这个重启服务的
         text: "更新历史",
         icon: "history",
         link: "/timeline/",
