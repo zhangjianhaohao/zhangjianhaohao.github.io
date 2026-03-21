@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
  import theme from "./theme.js";
+import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
   //改为默认中文
@@ -19,6 +20,18 @@ export default defineUserConfig({
     },
   },
 
+  bundler: viteBundler({
+    viteOptions: {
+      css: {
+        preprocessorOptions: {
+          scss: {
+            silenceDeprecations: ["if-function"],
+          },
+        },
+      },
+    },
+  }),
+  
   theme,
 
   // Enable it with pwa

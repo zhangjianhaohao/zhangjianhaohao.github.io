@@ -11,7 +11,23 @@ import {
 
 export const enSidebar = sidebar({
   "/面试指南/": [
+    //面试指南本身。
     //"",
+    {
+      //link这个属性不是必须的
+      text: "开发工具",
+      icon: ICONS.TOOL,
+      prefix: "开发工具/",
+      collapsible: true,
+      children: [
+        {
+          text: "Git",
+          icon: ICONS.GIT,
+          prefix: "git/",
+          children: ["git-intro", "github-tips"],
+        },
+      ]
+    },
     {
       //项目文字
       icon: ICONS.TOOL,
@@ -22,9 +38,9 @@ export const enSidebar = sidebar({
       // 必须有这个collapsible，可折叠的
       collapsible: true,
       //项目链接
-      //有link的都是有这个readme文件
+      //有link的话，会跳转到这个文件的readme文件
       //要去掉的话，只需要把开发工具底下的readme文化部去掉
-      link: "AI编程工具/",
+      //link: "AI编程工具/",
       // 结构是几个意思？
       children: [
         "Claude Code",
