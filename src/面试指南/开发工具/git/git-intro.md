@@ -22,9 +22,19 @@ git commit -m "提交的信息"
 # 推送到远程仓库
 git push origin main
 
+# 查看本地仓库main的提交记录
+git log origin/main
+# 查看已经提交到本地仓库，但是没推送到远程仓库的
+# 主要是历史提交记录
+git log
+(HEAD->MAIN) 表示提交到本地仓库的main分支，但是没有推送到远程仓库
+(origin/main) 表示已经提交到远程仓库
+没显示就是多次提交覆盖本地仓库，最后一次才推送到远程仓库
 
-
-
+# 查看本地分支
+git branch
+# 查看所有分支（本地仓库和远程仓库）
+git branch -a
 
 
 ```

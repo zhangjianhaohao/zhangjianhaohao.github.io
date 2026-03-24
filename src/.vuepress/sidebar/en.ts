@@ -85,7 +85,7 @@ export const enSidebar = sidebar({
       icon: "book",
       prefix: "posts/",
       link: "posts/",
-      children: "structure",
+      //children: "structure",
     },
     "intro",
     {

@@ -1,12 +1,13 @@
 ---
-title: Claude code编程工具
-category: Java
-date: 2026-03-20
-description: Java基础常见面试题总结：包含Java语言特点、JVM/JDK/JRE区别、字节码详解、基本数据类型、自动装箱拆箱、方法重载与重写等核心知识点，助力Java开发者面试通关。
+title: Github实用小技巧总结
+description: 汇总 Github 的高效使用技巧，包括个性化主页、自动简历与统计展示，提升个人品牌与开源协作体验。
+category: 开发工具
 tag:
-  - Java基础
+  - Git
 head:
   - - meta
     - name: keywords
-      content: Java基础,JVM,JDK,JRE,Java SE,字节码,Java编译,自动装箱,基本数据类型,方法重载,Java面试题
+      content: Github 技巧,个人主页,README,统计信息,开源贡献,简历
 ---
+
+## 1.如何找到github的热门项目(增长趋势)?
