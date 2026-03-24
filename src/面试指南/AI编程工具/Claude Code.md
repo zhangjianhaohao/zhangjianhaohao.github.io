@@ -40,7 +40,7 @@ shift+tab
 
 ## Claude Code的三种模式
 
-![图片](http://tcd7vuy8h.sabkt.gdipper.com/github/vuepress-hope/AI%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/Claude%20Code/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260324171447_3785_26.png)
+![图片](https://personalblog-1356942701.cos.ap-guangzhou.myqcloud.com/github/vuepress-hope/AI%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/Claude%20Code/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260324171447_3785_26.png)
 
 ### 默认模式
 
